@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+}
+.div-1{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-color: #0694f3;
+    text-align: center;
+    padding-top: 25px ;
+
+}
+.heading-2{
+    color: #0694f3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#skill{
+    width: 60%;
+    height: 45px;
+    background-color: rgb(212, 217, 223);
+    border:none;
+
+}
+#skill:focus{
+    border: none;
+    outline: none;
+}
+.div-2{
+    margin-left: 20px;
+}
+.inner_div{
+    margin-right: 20px;
+    padding: 20px 0 0 20px;
+    height: 120px;
+    border: 1px solid rgb(212, 217, 223);
+}
+.pro_description{
+    border: none;
+}
+.pro_description:focus{
+    border: none;
+    outline: none;
+}
+#project{
+    width: 700px;
+    padding-top: 10px;
+} 
+.section-2{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.contact{
+    display: block;
+}
+.contact{
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+}
+.contact:focus{
+    border: 1px solid rgb(212, 217, 223);
+    outline: 1px solid rgb(212, 217, 223) ;
+}
+button{
+    background-color: #0694f3;
+    padding: 8px;
+}
+
+
